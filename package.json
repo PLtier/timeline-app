@@ -1,0 +1,26 @@
+{
+  "name": "apka-podsumowanie",
+  "version": "1.0.0",
+  "description": "Visualising Google Calendar in Timeline View",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open --port 8000",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "review",
+    "timeline"
+  ],
+  "author": "Maciej Jałocha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "parcel": "^1.12.4"
+  },
+  "browserList": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "humanize-duration": "^3.25.1"
+  }
+}

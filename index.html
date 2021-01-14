@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Google Calendar API Quickstart</title>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <button class="auth">authorize and load</button>
+    <button class="exec">execute</button>
+    <input class="width" />
+    <div id="dashboard_div" style="width: 100%; overflow: scroll">
+      <!--Divs that will hold each control and chart-->
+      <div id="filter_div"></div>
+      <div
+        id="chart_div"
+        style="position: relative; width: 100vw; height: 100vh"
+      ></div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
