@@ -8,6 +8,6 @@ Built with:
 * Google calendar API
 
 ## Accessing Google API calendar
-https://developers.google.com/calendar/quickstart/js
+[Quickstart](https://developers.google.com/calendar/quickstart/js)
 You have to create new project in your Google API's, then get its "CLIENT ID" and create and get "API Key".
 up to 1 000 000 000 queries are free
