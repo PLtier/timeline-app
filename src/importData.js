@@ -23,7 +23,7 @@ function authenticate() {
     );
 }
 function loadClient() {
-  gapi.client.setApiKey("AIzaSyCP4CRIRjyxYZpmcLy8gbCFzF25AMQHU6o");
+  gapi.client.setApiKey("API_KEY");
   return gapi.client
     .load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
     .then(
