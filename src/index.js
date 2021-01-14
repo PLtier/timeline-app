@@ -8,7 +8,7 @@ google.charts.setOnLoadCallback(initialDraw);
 gapi.load("client:auth2", function () {
   gapi.auth2.init({
     client_id:
-      "803492294937-7dieop2qefumqargv0ojst1adc7i9963.apps.googleusercontent.com",
+      "CLIENT_ID",
   });
 });
 
