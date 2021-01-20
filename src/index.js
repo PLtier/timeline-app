@@ -22,20 +22,4 @@ const btnexec = document.querySelector(".exec");
 
 btnexec.addEventListener("click", () => {
   execute();
-
-  return gapi.client.calendar.events
-    .list({
-      calendarId: "hm55821755sl7v0g8i3l18noec@group.calendar.google.com",
-      showDeleted: false,
-      singleEvents: true,
-    })
-    .then(
-      function (response) {
-        // Handle the results here (response.result has the parsed body).
-        console.log("Response", response);
-      },
-      function (err) {
-        console.error("Execute error", err);
-      }
-    );
 });
