@@ -1,18 +1,12 @@
-# Timeline-app
-
-## What is it and what is its purpose.
-App fetchs events from your google calendar and displays it in timeline with controler for changing range of dates. Refresh feature is already there.
-Built with:
+# Hi 👋
+It's a timeline app which fetchs events from your google calendar and displays it in timeline with controler for changing range of dates. Refresh feature is already there.
+### Stack ⚙️
 * vanilla javascript
 * Google charts (timeline, dashboard and chart range filter)
 * Google calendar API
 
-
-
-## Prerequisites
-* npm install
-* Google API calendar API Key
-
+### Requirement
+Project needs access to Google API calendar. Or you can check out this out on a public site.
 ### Accessing Google API calendar
 [Quickstart](https://developers.google.com/calendar/quickstart/js)
 You have to create a new project in your Google API's, then get its "CLIENT ID", then create and get "API Key".
