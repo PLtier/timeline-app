@@ -24,7 +24,7 @@ function authenticate() {
 }
 function loadClient() {
   //import and put there your API Key from Google.
-  gapi.client.setApiKey("API_KEY");
+  gapi.client.setApiKey(process.env.API_KEY);
   return gapi.client
     .load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
     .then(

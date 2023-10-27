@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import "regenerator-runtime/runtime";
 import { authenticate, loadClient, execute } from "./importData.js";
 import { initialDraw } from "./createCalendar";
@@ -8,7 +9,7 @@ google.charts.setOnLoadCallback(initialDraw);
 gapi.load("client:auth2", function () {
   gapi.auth2.init({
     client_id:
-      "CLIENT_ID",
+      process.env.CLIENT_ID,
   });
 });
 
