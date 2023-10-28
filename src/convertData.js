@@ -1,12 +1,11 @@
-//NIESTETY
 import { createTooltip } from "./createTooltip";
 function eventRetriever(data) {
   let rows = [];
   data.result.items.forEach((element) => {
     let row = [data.result.summary];
     let {
-      summary = "brak",
-      description = "brak",
+      summary = "N/A",
+      description = "N/A",
       start: { dateTime: dateStart, date: altervativeDateStart },
       end: { dateTime: dateEnd, date: alternativeDateEnd },
     } = element;
@@ -38,9 +37,3 @@ function calendarRetriever(data) {
 }
 
 export { eventRetriever, calendarRetriever };
-// moim celem jest zwrócenie danych w formacie odpowiednim dla google'a celander.
-/**
- *
- * [nazwa_kalendarza, tytuł_eventu, opis, początek, koniec]
- *
- */

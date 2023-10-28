@@ -3,7 +3,6 @@ import { calendarViewOptions, rangeFilterConfig } from "./settings";
 
 let dashboard;
 
-//to improve
 
 function configureTable(data) {
   let table = new google.visualization.DataTable();
@@ -23,11 +22,11 @@ function initialDraw() {
   let timeline = new google.visualization.ChartWrapper(calendarViewOptions);
   let dataTable = configureTable([
     [
-      "lol",
-      "lol",
-      createTooltip("lol", new Date(2020, 1, 1), new Date(2020, 1, 10), "lol"),
-      new Date(2020, 1, 1),
-      new Date(2020, 1, 10),
+      "Here will be your calendars",
+      "There will be your events. Hover on the event to read the tooltip made up of additional information",
+      createTooltip("This is title", new Date(2023, 1, 1), new Date(2023, 1, 10), "This is description"),
+      new Date(2023, 1, 1),
+      new Date(2023, 1, 10),
     ],
   ]);
   dashboard.bind(rangeFilter, timeline);

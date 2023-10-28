@@ -16,11 +16,5 @@ gapi.load("client:auth2", function () {
 const btnauth = document.querySelector(".auth");
 
 btnauth.addEventListener("click", () => {
-  authenticate().then(loadClient);
-});
-
-const btnexec = document.querySelector(".exec");
-
-btnexec.addEventListener("click", () => {
-  execute();
+  authenticate().then(loadClient).then(execute);
 });
