@@ -1,5 +1,6 @@
 # Hi 👋
 It's a timeline app which fetchs events from your google calendar and displays it in timeline with controler for changing range of dates. Refresh feature is already there.
+Check it out: https://google-calendar-timeline.netlify.app/
 ### Stack ⚙️
 * vanilla javascript
 * Google charts (timeline, dashboard and chart range filter)
